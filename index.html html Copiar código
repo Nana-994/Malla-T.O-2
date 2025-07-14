@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Malla Curricular - [Tu Carrera]</h1>
+  <h1>Malla Curricular - [Terapia Ocupacional]</h1>
   <div class="malla">
-    <div class="ramo" onclick="mostrarInfo('anatomia')">Anatomía I</div>
+    <div class="Precalculo" onclick="mostrarInfo('MAT1000')">Precalculo</div>
     <div class="ramo" onclick="mostrarInfo('fisio')">Fisiología</div>
     <!-- Agrega más ramos aquí -->
   </div>
