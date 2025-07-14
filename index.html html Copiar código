@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Malla Curricular</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla Curricular - [Tu Carrera]</h1>
+  <div class="malla">
+    <div class="ramo" onclick="mostrarInfo('anatomia')">Anatomía I</div>
+    <div class="ramo" onclick="mostrarInfo('fisio')">Fisiología</div>
+    <!-- Agrega más ramos aquí -->
+  </div>
+
+  <div id="info" class="popup hidden">
+    <button onclick="cerrarInfo()">Cerrar ✖</button>
+    <div id="contenido"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
